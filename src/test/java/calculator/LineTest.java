@@ -12,11 +12,11 @@ class LineTest {
     @DisplayName("직선의 거리를 계산한다.")
     void getDistance() {
         // given
-        Position x1 = new Position(0);
-        Position y1 = new Position(0);
+        Point x1 = new Point(0);
+        Point y1 = new Point(0);
 
-        Position x2 = new Position(1);
-        Position y2 = new Position(1);
+        Point x2 = new Point(1);
+        Point y2 = new Point(1);
 
         Coordinate x = new Coordinate(x1, y1);
         Coordinate y = new Coordinate(x2, y2);
